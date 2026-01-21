@@ -1,0 +1,41 @@
+# Root .gitignore
+
+# Keep individual project .gitignore files
+# Each subfolder (game-web, flutter_android) has its own
+
+# Build artifacts
+dist/
+build/
+
+# Dependencies (managed per project)
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Old structure (cleanup)
+game-core/
+game-renderer/
+ui/
+platform-web/
+public/
+index.html
+vite.config.js
+package.json
+package-lock.json
+
+# Android (old Capacitor)
+android/
+
+# Misc
+*.log
+.env
+.env.local
